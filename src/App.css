@@ -1,0 +1,201 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Zilla+Slab&display=swap'); 
+
+.About_Title{
+  font-family: 'Zilla Slab', 'Times New Roman', Times, serif;
+  size: 16px;
+  text-align: center;
+  margin: 20px;
+  color: black;
+  font-weight: 550;
+}
+.About_Text{
+  font-family: Roboto, 'Times New Roman', Times, serif;
+  size: 10px;
+  text-align: left;
+  margin: 20px;
+  color: gray;
+}
+.App{
+  max-width: 1440px;
+  margin: auto;
+  padding: 10px;
+  background-color: #E8E8E8;
+}
+.Caption{
+  font-family: Roboto, 'Times New Roman', Times, sans-serif;
+  size: 8px;
+  text-align: center;
+  margin: 20px;
+  color: gray;
+}
+.Caption a{
+  transition: border-bottom 200ms ease;
+  color: black;
+  text-decoration:none;
+}
+.Caption a:hover{
+  color: black;
+  border-bottom: 1px solid black;
+}
+.Caption a:visited{
+  color: black;
+  text-decoration: none;
+}
+.Dropdown_Content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.Dropdown_Content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.Dropdown_Content a:hover {
+  background-color: #E8E8E8;
+  text-decoration: underline;}
+
+.Dropdown:hover .Dropdown_Content {
+  display: block;
+}
+.Footer{
+  background-color:#F0807E;
+}
+.Header_Nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 25px 20px 25px;
+  margin: 0 auto;
+  font-family: 'Zilla Slab', serif;
+  display: flex;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 550;
+}
+.Header_Nav a{
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 5px 10px 0px 5px;
+  transition: border-bottom 200ms ease;
+  box-shadow: none;
+}
+.Header_Nav a:visited{
+  color: black;
+  text-decoration: none;
+}
+.Header_Nav a:hover{
+  text-decoration:none;
+  border-bottom: 1px solid black;
+  color: #F0807E;
+}
+
+
+.Icon_Style{
+  font-size: 30px;
+  margin: auto;
+  text-decoration: none;
+  color: black;
+}
+.Icon_Style a:visited{
+  color: black;
+  text-decoration: none;
+}
+.Icon_Style a:hover{
+  text-decoration:none;
+  color:gray;
+}
+
+.Photo_Container{
+  margin: 0px 20px;
+  padding: auto;
+}
+.Photo_Padding{
+  padding-bottom: 20px;
+}
+.Projects{
+  margin: auto;
+}
+
+.Project_Thumbnail{
+  width: 100%;
+}
+.Project_Thumbnail:hover .Thumbnail_Title{
+  border-bottom: 1px solid black;
+}
+
+.SiteLogo{
+  font-family: 'Zilla Slab', 'Times New Roman', Times, sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  display: flex;
+  padding-left:5px;
+}
+
+.Thumbnail_Title{
+  font-family: Roboto, 'Times New Roman', Times, sans-serif;
+  size: 10px;
+  margin: 10px;
+  text-align:center;
+  text-decoration: none;
+}
+
+.Thumbnail_Title a{
+  transition: border-bottom 200ms ease;
+  box-shadow: none;
+  color: black;
+}
+.Thumbnail_Title a:hover{
+  text-decoration:none;
+  border-bottom: 1px solid black;
+}
+.Thumbnail_Title a:visited{
+  color: black;
+  text-decoration: none;
+}
+
+.Title{
+  font-family: 'Monserrat', sans-serif, 'Times New Roman', Times, sans-serif;
+  font-size: 45px;
+  text-align: center;
+  font-weight: 600;
+}
+.World{
+  margin: auto;
+}
+
+
+/* TO WORK ON
+.container {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color:red;
+  font-size: 20px;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+} */
