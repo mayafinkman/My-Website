@@ -1,71 +1,70 @@
  @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Zilla+Slab&display=swap'); 
 
 .About_Title{
-  font-family: 'Zilla Slab', 'Times New Roman', Times, serif;
+  font-family: Roboto, 'Times New Roman', Times, serif;
   size: 16px;
   text-align: center;
   margin: 20px;
-  color: black;
+  color: #938E87;
   font-weight: 550;
 }
 .About_Text{
-  font-family: Roboto, 'Times New Roman', Times, serif;
+  font-family: Lato, 'Times New Roman', Times, serif;
   size: 10px;
   text-align: left;
   margin: 20px;
-  color: gray;
+  color: #938E87;
 }
 .App{
   max-width: 1440px;
   margin: auto;
   padding: 10px;
-  background-color: #E8E8E8;
 }
 .Caption{
-  font-family: Roboto, 'Times New Roman', Times, sans-serif;
+  font-family: Lato, 'Times New Roman', Times, sans-serif;
   size: 8px;
   text-align: center;
   margin: 20px;
-  color: gray;
+  color: #938E87;
 }
 .Caption a{
   transition: border-bottom 200ms ease;
-  color: black;
+  color: #938E87;
   text-decoration:none;
 }
 .Caption a:hover{
-  color: black;
-  border-bottom: 1px solid black;
+  color: #F2C744;
+  border-bottom: 1px solid #938E87;
 }
 .Caption a:visited{
-  color: black;
+  color: #938E87;
   text-decoration: none;
 }
 .Dropdown_Content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: rgba(232,232,232,0.8);
   min-width: 100px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
 .Dropdown_Content a {
-  color: black;
+  color: #938E87;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
 .Dropdown_Content a:hover {
-  background-color: #E8E8E8;
+  background-color: rgb(232,232,232);
   text-decoration: underline;}
 
 .Dropdown:hover .Dropdown_Content {
   display: block;
 }
 .Footer{
-  background-color:#F0807E;
+  /* background-color:#F0807E; */
 }
 .Header_Nav{
   display: flex;
@@ -74,14 +73,14 @@
   align-items: center;
   padding: 15px 25px 20px 25px;
   margin: 0 auto;
-  font-family: 'Zilla Slab', serif;
+  font-family: Roboto, serif;
   display: flex;
   text-decoration: none;
   font-size: 18px;
-  font-weight: 550;
+  font-weight: 500;
 }
 .Header_Nav a{
-  color: black;
+  color: #938E87;
   text-decoration: none;
   display: block;
   padding: 5px 10px 0px 5px;
@@ -89,13 +88,13 @@
   box-shadow: none;
 }
 .Header_Nav a:visited{
-  color: black;
+  color: #938E87;
   text-decoration: none;
 }
 .Header_Nav a:hover{
   text-decoration:none;
-  border-bottom: 1px solid black;
-  color: #F0807E;
+  border-bottom: 1px solid #938E87;
+  color: #F2C744;
 }
 
 
@@ -103,15 +102,15 @@
   font-size: 30px;
   margin: auto;
   text-decoration: none;
-  color: black;
+  color: #938E87;
 }
 .Icon_Style a:visited{
-  color: black;
+  color: #938E87;
   text-decoration: none;
 }
 .Icon_Style a:hover{
   text-decoration:none;
-  color:gray;
+  color:#F2C744;
 }
 
 .Photo_Container{
@@ -129,11 +128,11 @@
   width: 100%;
 }
 .Project_Thumbnail:hover .Thumbnail_Title{
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #938E87;
 }
 
 .SiteLogo{
-  font-family: 'Zilla Slab', 'Times New Roman', Times, sans-serif;
+  font-family: Roboto, 'Times New Roman', Times, sans-serif;
   font-size: 25px;
   font-weight: 700;
   display: flex;
@@ -141,7 +140,7 @@
 }
 
 .Thumbnail_Title{
-  font-family: Roboto, 'Times New Roman', Times, sans-serif;
+  font-family: Lato, 'Times New Roman', Times, sans-serif;
   size: 10px;
   margin: 10px;
   text-align:center;
@@ -151,22 +150,23 @@
 .Thumbnail_Title a{
   transition: border-bottom 200ms ease;
   box-shadow: none;
-  color: black;
+  color: #938E87;
 }
 .Thumbnail_Title a:hover{
   text-decoration:none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #F2C744;
 }
 .Thumbnail_Title a:visited{
-  color: black;
+  color: #938E87;
   text-decoration: none;
 }
 
 .Title{
-  font-family: 'Monserrat', sans-serif, 'Times New Roman', Times, sans-serif;
+  font-family: 'Roboto', 'Times New Roman', Times, sans-serif;
   font-size: 45px;
   text-align: center;
   font-weight: 600;
+  color: #938E87;
 }
 .World{
   margin: auto;

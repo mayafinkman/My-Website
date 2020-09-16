@@ -27,7 +27,7 @@ import * as firebase from "firebase/app";
 
 // Add the Firebase services that you want to use
 
-var firebaseConfig = {
+const firebaseConfig = {
   apiKey: "AIzaSyA6g224DN_FldhJxIoCk4VjhDxwODNHEZU",
   authDomain: "maya-finkman-photography.firebaseapp.com",
   databaseURL: "https://maya-finkman-photography.firebaseio.com",
@@ -36,7 +36,7 @@ var firebaseConfig = {
   messagingSenderId: "370588566573",
   appId: "1:370588566573:web:88bbf997d265697fe164a4",
   measurementId: "G-TKMHPP6B59"
-  };
+};
   
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
