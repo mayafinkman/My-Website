@@ -27,15 +27,15 @@ function Home() {
             <p className="Title">Maya Finkman Photography</p>
             <p className="Caption">Please visit my work, or learn more about me.</p>
             <div className="row justify-content-center">
-                <div class="col-md-4">
+                <div className="col-md-4">
                     <a href="/projects"><img src={img5} alt="Project Cover" className="Project_Thumbnail" /></a>
                     <div className="Thumbnail_Title"><a href="/projects">Projects</a></div>
                 </div>
-                <div class="col-md-4">
+                <div className="col-md-4">
                     <a href="/world"><img src={img6} alt="World Cover" className="Project_Thumbnail" /></a>
                     <div className="Thumbnail_Title"><a href="/world">World</a></div>
                 </div>
-                <div class="col-md-4">
+                <div className="col-md-4">
                     <a href="/about"><img src={img7} alt="Maya" className="Project_Thumbnail" /></a>
                     <div className="Thumbnail_Title"><a href="/about">About Me</a></div>
                 </div>

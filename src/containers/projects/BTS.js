@@ -14,7 +14,7 @@ function BTS() {
         <div className="BTS">
             <p className="Title">Behind the Scenes</p>
             <p className="Caption">Behind the scenes photographs on various student film sets.</p>
-            <div className="Photo_Container">
+            <div className="Photo_Container container-fluid">
                 <div className="row justify-content-center">
                     <img className="col-md-4 Photo_Padding" src={img1} alt=""></img>
                 </div>
