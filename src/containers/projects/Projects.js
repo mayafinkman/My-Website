@@ -10,8 +10,8 @@ function Projects() {
         <div className="Projects">
             <div className="row justify-content-center">
                 <div class="col-md-5">
-                    <a href="/portraits"><img src={portraits} alt="Portraits Cover" className="Project_Thumbnail" /></a>
-                    <div className="Thumbnail_Title"><a href="/behind-the-scenes" >Portraits</a></div>
+                    <a href="/resist"><img src={resist} alt="Resist Cover" className="Project_Thumbnail" /> </a>
+                    <div className="Thumbnail_Title"><a href="/resist">Resist</a></div>
                 </div>
                 <div class="col-md-5">
                     <a href="/behind-the-scenes"><img src={bts} alt="Behind the Scenes Cover" className="Project_Thumbnail" /></a>
@@ -20,8 +20,8 @@ function Projects() {
             </div>  
             <div className="row justify-content-center">
                 <div class="col-md-5">
-                    <a href="/resist"><img src={resist} alt="Resist Cover" className="Project_Thumbnail" /> </a>
-                    <div className="Thumbnail_Title"><a href="/resist">Resist</a></div>
+                    <a href="/portraits"><img src={portraits} alt="Portraits Cover" className="Project_Thumbnail" /></a>
+                    <div className="Thumbnail_Title"><a href="/behind-the-scenes" >Portraits</a></div>
                 </div>
                 <div class="col-md-5">
                     <a href="/colors"><img src={colors} alt="Colors Cover" className="Project_Thumbnail" /> </a>
@@ -32,7 +32,7 @@ function Projects() {
             <div className="row justify-content-center">
                 <div class="col-md-5">
                     <a href="/resist"><img src={shakespeare} alt="Shakespeare Cover" className="Project_Thumbnail" /> </a>
-                    <div className="Thumbnail_Title"><a href="/resist">Shakespeare</a></div>
+                    <div className="Thumbnail_Title"><a href="/resist">Shakespeare in Shadows</a></div>
                 </div>
             </div>
             

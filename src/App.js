@@ -27,6 +27,7 @@ import * as firebase from "firebase/app";
 
 // Add the Firebase services that you want to use
 
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "AIzaSyA6g224DN_FldhJxIoCk4VjhDxwODNHEZU",
   authDomain: "maya-finkman-photography.firebaseapp.com",

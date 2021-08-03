@@ -12,9 +12,9 @@ function Header() {
                     <div className="Dropdown">
                         <a href="/projects" >Projects</a>
                         <div className="Dropdown_Content">
-                            <a href="/portraits">Portraits</a>
-                            <a href="/behind-the-scenes">Behind the Scenes</a>
                             <a href="/resist">Resist</a>
+                            <a href="/behind-the-scenes">Behind the Scenes</a>
+                            <a href="/portraits">Portraits</a>
                             <a href="/colors">Colors</a>
                             <a href="/shakespeare-in-shadows">Shakespeare in Shadows</a>
                         </div>

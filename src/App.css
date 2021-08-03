@@ -1,30 +1,31 @@
  @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Zilla+Slab&display=swap'); 
+ @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Open+Sans&family=Padauk&family=Roboto&display=swap');
 
 .About_Title{
-  font-family: Roboto, 'Times New Roman', Times, serif;
-  size: 16px;
+  font-family: 'Padauk', sans-serif;
+  font-size: 27px;
   text-align: center;
   margin: 20px;
-  color: #938E87;
+  color: #3c3c3c;
   font-weight: 550;
 }
 .About_Text{
-  font-family: Lato, 'Times New Roman', Times, serif;
-  size: 10px;
-  text-align: left;
+  font-family: 'Roboto', 'Times New Roman', Times, serif;
+  font-size: 18px;
+  text-align: center;
   margin: 20px;
-  color: #938E87;
+  color: #3c3c3c;
 }
 .App{
   max-width: 1440px;
   margin: auto;
-  padding: 10px;
+  /*padding: 10px;*/
 }
 .Caption{
-  font-family: Lato, 'Times New Roman', Times, sans-serif;
-  size: 8px;
+  font-family: 'Roboto', 'Times New Roman', Times, sans-serif;
+  size: 12px;
   text-align: center;
-  margin: 20px;
+  margin: 10px 20px 30px;
   color: #938E87;
 }
 .Caption a{
@@ -32,18 +33,18 @@
   color: #938E87;
   text-decoration:none;
 }
-.Caption a:hover{
-  color: #F2C744;
-  border-bottom: 1px solid #938E87;
-}
 .Caption a:visited{
   color: #938E87;
   text-decoration: none;
 }
+.Caption a:hover{
+  color:#F54ECD;
+  border-bottom: 1px solid #938E87;
+}
 .Dropdown_Content {
   display: none;
   position: absolute;
-  background-color: rgba(232,232,232,0.8);
+  background-color: rgb(232, 232, 232);
   min-width: 100px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -67,20 +68,21 @@
   /* background-color:#F0807E; */
 }
 .Header_Nav{
+  background-color: #ffffff;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 15px 25px 20px 25px;
-  margin: 0 auto;
-  font-family: Roboto, serif;
+  margin: 0px auto 20px;
+  font-family: 'Padauk', sans-serif;
   display: flex;
   text-decoration: none;
   font-size: 18px;
   font-weight: 500;
 }
 .Header_Nav a{
-  color: #938E87;
+  color: #3c3c3c;
   text-decoration: none;
   display: block;
   padding: 5px 10px 0px 5px;
@@ -88,13 +90,12 @@
   box-shadow: none;
 }
 .Header_Nav a:visited{
-  color: #938E87;
+  color: #3c3c3c;
   text-decoration: none;
 }
 .Header_Nav a:hover{
   text-decoration:none;
-  border-bottom: 1px solid #938E87;
-  color: #F2C744;
+  color: #F54ECD;
 }
 
 
@@ -102,19 +103,19 @@
   font-size: 30px;
   margin: auto;
   text-decoration: none;
-  color: #938E87;
+  color: #3c3c3c;
 }
 .Icon_Style a:visited{
-  color: #938E87;
+  color: #3c3c3c;
   text-decoration: none;
 }
 .Icon_Style a:hover{
   text-decoration:none;
-  color:#F2C744;
+  color:#F54ECD;
 }
 
 .Photo_Container{
-  margin: 0px 20px;
+  margin: 10px 20px 0px;
   padding: auto;
 }
 .Photo_Padding{
@@ -129,20 +130,25 @@
   width: 100%;
 }
 .Project_Thumbnail:hover .Thumbnail_Title{
-  border-bottom: 1px solid #938E87;
+  border-bottom: 1px solid #3c3c3c;
 }
 
 .SiteLogo{
-  font-family: Roboto, 'Times New Roman', Times, sans-serif;
-  font-size: 25px;
+  color: #3c3c3c;
+  font-family: 'Cinzel', serif;
+  font-size: 30px;
   font-weight: 700;
   display: flex;
   padding-left:5px;
 }
 
+.SiteLogo a{
+  color: #3c3c3c;
+}
+
 .Thumbnail_Title{
-  font-family: Lato, 'Times New Roman', Times, sans-serif;
-  size: 10px;
+  font-family: 'Padauk', 'Times New Roman', Times, sans-serif;
+  size: 12px;
   margin: 10px;
   text-align:center;
   text-decoration: none;
@@ -151,23 +157,24 @@
 .Thumbnail_Title a{
   transition: border-bottom 200ms ease;
   box-shadow: none;
-  color: #938E87;
+  color: #3c3c3c;
+}
+.Thumbnail_Title a:visited{
+  color: #3c3c3c;
+  text-decoration: none;
 }
 .Thumbnail_Title a:hover{
   text-decoration:none;
-  border-bottom: 1px solid #F2C744;
-}
-.Thumbnail_Title a:visited{
-  color: #938E87;
-  text-decoration: none;
+  color: #F54ECD;
+  border-bottom: 1px solid #F54ECD;
 }
 
 .Title{
-  font-family: 'Roboto', 'Times New Roman', Times, sans-serif;
-  font-size: 45px;
+  font-family: 'Cinzel', serif;
+  font-size: 30px;
   text-align: center;
   font-weight: 600;
-  color: #938E87;
+  color: #3c3c3c;
 }
 .World{
   margin: auto;

@@ -10,7 +10,7 @@ import img7 from './homephoto/about.jpg';
 function Home() {
     return (
         <div className="Home">
-            <div className="PhotoContainer">
+            <div className="Photo_Container">
                 <div className="row justify-content-center Photo_Padding">
                     <img className="col-md-12" src={img2} alt="Austria"></img>
                 </div>
@@ -24,7 +24,6 @@ function Home() {
                     <img className="col-md-12" src={img1} alt="Eilat"></img>
                 </div>   
             </div>
-            <p className="Title">Maya Finkman Photography</p>
             <p className="Caption">Please visit my work, or learn more about me.</p>
             <div className="row justify-content-center">
                 <div className="col-md-4">
