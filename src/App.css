@@ -1,87 +1,37 @@
- @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Zilla+Slab&display=swap'); 
- @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Open+Sans&family=Padauk&family=Roboto&display=swap');
+/* Import Livory Font */
+@import url("https://use.typekit.net/nyf6wcq.css");
 
-.About_Title{
-  font-family: 'Padauk', sans-serif;
-  font-size: 27px;
-  text-align: center;
-  margin: 20px;
-  color: #3c3c3c;
-  font-weight: 550;
-}
-.About_Text{
-  font-family: 'Roboto', 'Times New Roman', Times, serif;
-  font-size: 18px;
-  text-align: center;
-  margin: 20px;
-  color: #3c3c3c;
-}
+/* High Level Page CSS */
+
 .App{
-  max-width: 1440px;
-  margin: auto;
-  /*padding: 10px;*/
-}
-.Caption{
-  font-family: 'Roboto', 'Times New Roman', Times, sans-serif;
-  size: 12px;
-  text-align: center;
-  margin: 10px 20px 30px;
-  color: #938E87;
-}
-.Caption a{
-  transition: border-bottom 200ms ease;
-  color: #938E87;
-  text-decoration:none;
-}
-.Caption a:visited{
-  color: #938E87;
-  text-decoration: none;
-}
-.Caption a:hover{
-  color:#F54ECD;
-  border-bottom: 1px solid #938E87;
-}
-.Dropdown_Content {
-  display: none;
-  position: absolute;
-  background-color: rgb(232, 232, 232);
-  min-width: 100px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  max-width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0px;
 }
 
-.Dropdown_Content a {
-  color: #938E87;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
+/* Header Styles */
 
-.Dropdown_Content a:hover {
-  background-color: rgb(232,232,232);
-  text-decoration: underline;}
-
-.Dropdown:hover .Dropdown_Content {
-  display: block;
-}
-.Footer{
-  /* background-color:#F0807E; */
-}
-.Header_Nav{
-  background-color: #ffffff;
+.Header_Links{
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+.Header_Nav{
+  display: flex;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-between;
+
   padding: 15px 25px 20px 25px;
   margin: 0px auto 20px;
-  font-family: 'Padauk', sans-serif;
-  display: flex;
+  font-family: 'Helvetica Neue', 'Times New Roman', Times, sans-serif;
   text-decoration: none;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
 }
-.Header_Nav a{
+.Header_Links a{
   color: #3c3c3c;
   text-decoration: none;
   display: block;
@@ -89,67 +39,95 @@
   transition: border-bottom 200ms ease;
   box-shadow: none;
 }
-.Header_Nav a:visited{
+.Header_Links a:visited{
   color: #3c3c3c;
   text-decoration: none;
 }
-.Header_Nav a:hover{
+.Header_Links a:hover{
   text-decoration:none;
-  color: #F54ECD;
+  color: #658E9C;
+}
+.Header_Wrapper{
+  background: transparent;
 }
 
+.SiteLogo{
+  font-family: "Livory", serif, 'Times New Roman', Times, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  padding-left:5px;
+ 
+  
+}
+.SiteLogo a{
+  color: #3c3c3c;
+}
+.SiteLogo a:visted{
+  color: #3c3c3c;
+  text-decoration: none;
+}
+.SiteLogo a:hover{
+  color: #658E9C;
+  text-decoration: none;
+  
+}
+
+
+/* Footer Styles */
+
+.Footer{
+  overflow: hidden;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.Footer_Content{
+  width: 100%;
+  padding: 10px 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Footer_Text{
+  font-family: 'Helvetica Neue', 'Times New Roman', Times, sans-serif;
+  font-size: 11px;
+}
+.Footer_Links{
+
+}
 
 .Icon_Style{
-  font-size: 30px;
-  margin: auto;
-  text-decoration: none;
-  color: #3c3c3c;
+  font-size: 18px;
+  margin: 0px 15px;
+  color: #999999;
+}
+.Icon_Style a{
+
 }
 .Icon_Style a:visited{
   color: #3c3c3c;
-  text-decoration: none;
+
 }
 .Icon_Style a:hover{
-  text-decoration:none;
-  color:#F54ECD;
+  color: #658E9C;
 }
 
-.Photo_Container{
-  margin: 10px 20px 0px;
-  padding: auto;
-}
-.Photo_Padding{
-  padding-bottom: 20px;
-  height: 100%;
-}
-.Projects{
-  margin: auto;
-}
+/* CSS for Homepage */
 
 .Project_Thumbnail{
   width: 100%;
 }
-.Project_Thumbnail:hover .Thumbnail_Title{
+.Project_Thumbnail:hover .Thumbnail_Title a{
   border-bottom: 1px solid #3c3c3c;
 }
 
-.SiteLogo{
-  color: #3c3c3c;
-  font-family: 'Cinzel', serif;
-  font-size: 30px;
-  font-weight: 700;
-  display: flex;
-  padding-left:5px;
-}
-
-.SiteLogo a{
-  color: #3c3c3c;
-}
-
 .Thumbnail_Title{
-  font-family: 'Padauk', 'Times New Roman', Times, sans-serif;
+  font-family: 'Helvetica Neue', 'Times New Roman', Times, sans-serif;
   size: 12px;
-  margin: 10px;
   text-align:center;
   text-decoration: none;
 }
@@ -165,45 +143,88 @@
 }
 .Thumbnail_Title a:hover{
   text-decoration:none;
-  color: #F54ECD;
-  border-bottom: 1px solid #F54ECD;
+  color: #658E9C;
+  border-bottom: 1px solid #658E9C;
+}
+
+
+/* CSS for About Page*/
+
+ .About{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.About_Title{
+  font-family: 'Padauk', sans-serif;
+  font-size: 32px;
+  text-align: left;
+  margin: 20px;
+  color: #ffffff;
+  font-weight: 550;
+}
+.About_Text{
+  font-family: 'Roboto', 'Times New Roman', Times, serif;
+  font-size: 18px;
+  text-align: right;
+  margin: 20px;
+  color: #000000;
+}
+
+.About_Text a{
+  color:#000000;
+  text-decoration: underline;
+}
+.About_Text a:hover{
+  color:#658E9C;
+  
+}
+
+.About_Image{
+  width: 100%;
+}
+
+/* Photo page Styling */
+
+.Caption{
+  font-family: 'Helvetica Neue', 'Times New Roman', Times, sans-serif;
+  size: 16px;
+  text-align: center;
+  margin: 10px 20px 30px;
+  color: #000000;
+}
+.Caption a{
+  transition: border-bottom 200ms ease;
+  color: #938E87;
+  text-decoration:none;
+}
+.Caption a:visited{
+  color: #938E87;
+  text-decoration: none;
+}
+.Caption a:hover{
+  color:#F54ECD;
+  border-bottom: 1px solid #938E87;
+}
+
+.Photo_Container{
+  margin: 10px 20px 0px;
+  padding: 0px;
+}
+.Photo_Container img{
+  padding-bottom: 20px;
 }
 
 .Title{
-  font-family: 'Cinzel', serif;
-  font-size: 30px;
+  font-family: "Livory", serif, 'Times New Roman', Times, sans-serif;
+  font-size: 25px;
   text-align: center;
-  font-weight: 600;
+  font-weight: 400;
   color: #3c3c3c;
 }
-.World{
-  margin: auto;
-}
 
 
-/* TO WORK ON
-.container {
-  position: relative;
-}
 
-.overlay {
-  position: absolute;
-  height: 100%;
-  width: 50%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
-}
 
-.container:hover .overlay {
-  opacity: 1;
-}
 
-.text {
-  color:red;
-  font-size: 20px;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-} */

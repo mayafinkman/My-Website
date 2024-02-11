@@ -8,39 +8,38 @@ import img6 from './bts/BTS_FINALS-6.jpg';
 import img7 from './bts/BTS_FINALS-7.jpg';
 import img8 from './bts/BTS_FINALS-8.jpg';
 import img9 from './bts/BTS_FINALS-9.jpg';
+import img10 from './bts/BTS_FINALS-10.jpg';
+import img11 from './bts/BTS_FINALS-11.jpg';
+import img12 from './bts/BTS_FINALS-12.jpg';
 
 function BTS() {
     return (
         <div className="BTS">
             <p className="Title">Behind the Scenes</p>
             <p className="Caption">Behind the scenes photographs on various student film sets.</p>
-            <div className="Photo_Container container-fluid">
+            <div className="Photo_Container">
                 <div className="row justify-content-center">
-                    <img className="col-md-4 Photo_Padding" src={img1} alt=""></img>
-                </div>
-                <div className="row justify-content-center">
-                    <img className="col-md-9 Photo_Padding" src={img2} alt=""></img>
-                </div>
-                <div className="row justify-content-center">
-                    <img className="col-md-4 Photo_Padding" src={img3} alt=""></img>
-                </div>
-                <div className="row justify-content-center">
-                    <img className="col-md-9 Photo_Padding" src={img4} alt=""></img>
-                </div>
-                <div className="row justify-content-center">
-                    <img className="col-md-4 Photo_Padding" src={img5} alt=""></img>
-                </div>
-                <div className="row justify-content-center">
-                    <img className="col-md-9 Photo_Padding" src={img6} alt=""></img>
-                </div>
-                <div className="row justify-content-center">
-                    <img className="col-md-4 Photo_Padding" src={img7} alt=""></img>
-                </div>
-                <div className="row justify-content-center">
-                    <img className="col-md-9 Photo_Padding" src={img8} alt=""></img>
-                </div>
-                <div className="row justify-content-center">
-                    <img className="col-md-4 Photo_Padding" src={img9} alt=""></img>
+                    
+                    <div className='col-md-4'>
+                        <img className="col-md" src={img1} alt="" />
+                        <img className="col-md" src={img2} alt="" />
+                        <img className="col-md" src={img3} alt="" />
+                        <img className="col-md" src={img4} alt="" />
+                    </div>
+
+                    <div className='col-md-4'>
+                        <img className="col-md" src={img5} alt="" />
+                        <img className="col-md" src={img6} alt="" />
+                        <img className="col-md" src={img7} alt="" />
+                        <img className="col-md" src={img8} alt="" />
+                    </div>
+
+                    <div className='col-md-4'>
+                        <img className="col-md" src={img9} alt="" />
+                        <img className="col-md" src={img10} alt="" />
+                        <img className="col-md" src={img11} alt="" />
+                        <img className="col-md" src={img12} alt="" />
+                    </div>
                 </div>
             </div>
         </div> 

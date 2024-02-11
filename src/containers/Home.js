@@ -3,9 +3,9 @@ import img1 from "./homephoto/home-1.jpg";
 import img2 from "./homephoto/home-2.jpg";
 import img3 from "./homephoto/home-3.jpg";
 import img4 from "./homephoto/home-4.jpg";
-import img5 from "./homephoto/projects-cover.jpg";
-import img6 from './homephoto/world-cover.jpg';
-import img7 from './homephoto/about.jpg';
+import places from "./homephoto/places-cover.jpg";
+import people from './homephoto/portraits-cover.jpg';
+import bts from "./homephoto/bts-cover.jpg";
 
 function Home() {
     return (
@@ -23,22 +23,23 @@ function Home() {
                 <div className="row justify-content-center Photo_Padding">
                     <img className="col-md-12" src={img1} alt="Eilat"></img>
                 </div>   
+                <p className='Caption'>Please visit my work:</p>
+                <div className="row justify-content-center">
+                    <div className="col-md-4">
+                        <a href="/projects"><img src={people} alt="People project cover image" className="Project_Thumbnail" /></a>
+                        <div className="Thumbnail_Title"><a href="/projects">People</a></div>
+                    </div>
+                    <div className="col-md-4">
+                        <a href="/world"><img src={places} alt="Places project cover image" className="Project_Thumbnail" /></a>
+                        <div className="Thumbnail_Title"><a href="/world">Places</a></div>
+                    </div>
+                    <div className="col-md-4">
+                        <a href="/world"><img src={bts} alt="Behind the scenes project cover image" className="Project_Thumbnail" /></a>
+                        <div className="Thumbnail_Title"><a href="/world">Behind the Scenes</a></div>
+                    </div>
+                </div>  
             </div>
-            <p className="Caption">Please visit my work, or learn more about me.</p>
-            <div className="row justify-content-center">
-                <div className="col-md-4">
-                    <a href="/projects"><img src={img5} alt="Project Cover" className="Project_Thumbnail" /></a>
-                    <div className="Thumbnail_Title"><a href="/projects">Projects</a></div>
-                </div>
-                <div className="col-md-4">
-                    <a href="/world"><img src={img6} alt="World Cover" className="Project_Thumbnail" /></a>
-                    <div className="Thumbnail_Title"><a href="/world">World</a></div>
-                </div>
-                <div className="col-md-4">
-                    <a href="/about"><img src={img7} alt="Maya" className="Project_Thumbnail" /></a>
-                    <div className="Thumbnail_Title"><a href="/about">About Me</a></div>
-                </div>
-            </div>  
+            
         </div>
     )
 }
